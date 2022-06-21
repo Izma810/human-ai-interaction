@@ -1,0 +1,59 @@
+.home__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:80px;
+}
+
+.htext__professor-text{
+    font-weight: 600;
+    font-size: 24px;
+    /*figma complicated it ¯\_(ツ)_/¯*/
+    background: linear-gradient(90.36deg, #C89AEC -9.72%, #4A2885 -9.7%, rgba(188, 116, 222, 0.8) 61.32%, rgba(255, 133, 235, 0) 135.38%, rgba(101, 31, 222, 0) 135.38%, #AF25A1 135.38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.htext__bold-text{
+    margin-top:10px;
+    font-size:80px;
+    font-weight:800;
+    color:var(--default-heading);
+}
+
+.htext__para-text{
+    padding:10px 280px;
+    color:var(--para-text);
+    margin-top:10px;
+}
+
+.htext__button{
+    margin-top:20px;
+    padding:18px 70px;
+    background: linear-gradient(94.29deg, #DBB6FA -2.11%, #924FC8 60%, #6914AF 100%);
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    font-weight:500;
+    transition: 0.1s ease-in-out;
+}
+
+.htext__button:hover{
+    opacity:0.9;
+}
+
+.home__icons{
+    margin-top:-40px;
+    display:flex;
+    flex-direction: column;
+}
+
+.home__icons a{
+    width:3%;
+    margin-left:30px;
+    margin-top:15px;
+}
