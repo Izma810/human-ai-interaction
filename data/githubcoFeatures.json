@@ -1,0 +1,17 @@
+[
+    {
+        "desc":"Empowered by a very large language model called GPT-3"
+    },
+    {
+        "desc":"GPT-3 contains about 175 billion parameters"
+    },
+    {
+        "desc":"Trained on 45TB of text data crawled from the Web"
+    },
+    {
+        "desc":"Finetuned on 159GB of Python code from GitHub"
+    },
+    {
+        "desc":"Costs about 10 or 20 million dollars to train"
+    }
+]

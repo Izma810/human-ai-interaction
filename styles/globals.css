@@ -2,6 +2,7 @@
 
 @import url('./navbar.css');
 @import url('./home.css');
+@import url('./feature.css');
 
 html,
 body {
@@ -14,7 +15,7 @@ body {
 
   --background:#0A0D15;
   --default-heading:#ffffff;
-  --sub-heading:#696868;
+  --sub-heading:#9C9A9A;
   --purple-shade:#CEA3F1;
   --para-text:#ACACAC;
   --top-border:#11131E;

@@ -1,0 +1,70 @@
+.feature{
+    margin-top: 120px;
+    padding: 10px 80px;
+}
+
+.feature__heading{
+    color:var(--sub-heading);
+    font-weight:700;
+    font-size:50px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.featurearea{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__gif img{
+    border-radius:5px;
+}
+
+.feature__features{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    background:var(--top-border);
+    border-radius:5px;
+    padding:30px 40px;
+    padding-top:38px;
+}
+
+.feature__gif{
+    width:50%;
+}
+
+.feature__features span{
+    color:var(--para-text);
+    font-size:15px;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+}
+
+.feature__features span p{
+    margin-left:15px;
+}
+
+.odd{
+    width:40%;
+    margin:50px;
+}
+
+.one{
+    padding:57px 30px;
+}
+
+.even{
+    margin-bottom:0px;
+}
+
+.dem{
+    margin-top:-20px;
+}
+
+.damn{
+    margin-top:100px;
+}

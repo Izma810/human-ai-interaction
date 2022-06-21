@@ -2,6 +2,9 @@ import Head from 'next/head';
 import YicsIcon from '../public/icons/yics.svg';
 import Github from '../public/icons/github.svg';
 import Image from 'next/image';
+import GithubCopilot from '../components/GithubCopilot';
+import Police from '../components/Police';
+import AutonomousCars from '../components/AutonomousCars';
 
 function Home(){
 
@@ -31,9 +34,18 @@ function Home(){
         </div>
       </div>
       <div className='home__icons'>
-        <a href='https://www.youth-inventa.org/yics' target='blank'><Image src={YicsIcon} alt='deathbed' height={45}  width={45}/></a>
-        <a href='https://github.com/Izma810' target='blank'><Image src={Github} alt='deathbed' height={45}  width={45}/> </a>
+        <a href='https://www.youth-inventa.org/yics' target='blank'>
+          <Image src={YicsIcon} alt='deathbed' height={45}  width={45}/>
+        </a>
+        <a href='https://github.com/Izma810' target='blank'>
+          <Image src={Github} alt='deathbed' height={45}  width={45}/> 
+        </a>
       </div>
+
+      <GithubCopilot/>
+      <Police />
+      <AutonomousCars />
+      
     </div>
   )
 }
