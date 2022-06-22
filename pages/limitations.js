@@ -49,6 +49,8 @@ function Limitations(){
                 </div>
             </div>
             
+            {/*I think I was too lazy to make a component so now I am just copy pasting stuff lol pity :'''')*/}
+
             <div className='limits__ai'>
                 <div className='ai__heading'>
                     <span className='heading__one'>Usability Issues</span>
