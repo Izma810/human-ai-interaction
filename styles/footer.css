@@ -1,0 +1,15 @@
+.footer{
+    background:var(--top-border);
+    width:100%;
+    height:65px;
+    position: relative;
+    margin-top:100px;
+    padding:20px 100px;
+}
+
+.footer__text{
+    color:var(--sub-heading);
+    text-align: center;
+    font-weight:600;
+    font-size:18px;
+}

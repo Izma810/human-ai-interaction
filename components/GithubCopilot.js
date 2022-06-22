@@ -17,7 +17,7 @@ function GithubCopilot(){
                     {
                         data.map((i) => (
                             <>
-                                <span><Image src={Tick} alt='ticky'/><p>{i.desc}</p></span>
+                                <span key={i.key}><Image src={Tick} alt='ticky'/><p>{i.desc}</p></span>
                             </>
                         ))
                     }

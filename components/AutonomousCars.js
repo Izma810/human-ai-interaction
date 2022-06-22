@@ -1,6 +1,6 @@
 import Autocar from '../public/gifs/autocar.gif';
 import Image from 'next/image'
-import data from '../data/AutoCars.json';
+import data from '../data/autocarsFeatures.json';
 import Tick from '../public/icons/tick.svg';
 
 function AutonomousCars(){
@@ -17,7 +17,7 @@ function AutonomousCars(){
                     {
                         data.map((i) => (
                             <>
-                                <span><Image src={Tick} alt='ticky'/><p>{i.desc}</p></span>
+                                <span key={i.key}><Image src={Tick} alt='ticky'/><p>{i.desc}</p></span>
                             </>
                         ))
                     }

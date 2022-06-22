@@ -1,0 +1,20 @@
+[
+    {
+        "desc":"Modern Al techniques are designed to solve a single task (Narrow AI)"
+    },
+    {
+        "desc":"They lack the capability to generalize to novel cases or other tasks"
+    },
+    {
+        "desc":"They often require a vast amount of labeled training data"
+    },
+    {
+        "desc":"Developers tend to overestimate the capability of Al"
+    },
+    {
+        "desc":"Developers tend to overlook the real needs and capabilities of human users"
+    },
+    {
+        "desc":"Developers tend to overlook the social impact of the techniques they build"
+    }
+]
