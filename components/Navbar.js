@@ -9,9 +9,6 @@ const navLinks = [
         title:'Limitations', path:'/limitations'
     },
     {
-        title:'Solution', path:'/solution'
-    },
-    {
         title:'Projects', path:'/projects'
     }
 

@@ -17,6 +17,11 @@ function Home(){
 
   return(
     <div className='home'>
+      <Head>
+        <title>
+          Home
+        </title>
+      </Head>
       <div className='home__text'>
         <div className='htext__professor-text'>
           Dr. Tianyi Zhang
